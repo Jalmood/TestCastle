@@ -11,7 +11,7 @@ from data import grey_line
 
 number_q = 5
 def generate_logo_tag():
-    logo = open("C:/Users/rayan/Desktop/TestCastle/logo.jpg", "rb")
+    logo = open("https://github.com/Rayan3rb/TestCastle/blob/main/logo.jpg", "rb")
     logo_bytes = logo.read()
     logo_b64 = base64.b64encode(logo_bytes).decode()
     logo_tag = f"""
