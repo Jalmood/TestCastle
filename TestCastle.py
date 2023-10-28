@@ -11,15 +11,14 @@ from data import grey_line
 
 number_q = 5
 def generate_logo_tag():
-    logo = open("https://github.com/Rayan3rb/TestCastle/blob/main/logo.jpg", "rb")
-    logo_bytes = logo.read()
-    logo_b64 = base64.b64encode(logo_bytes).decode()
+    logo_url = "https://github.com/Rayan3rb/TestCastle/raw/main/logo.jpg"
     logo_tag = f"""
     <div style="display: flex; justify-content: center;">
-        <img src="data:image/jpeg;base64,{logo_b64}" width="240" height="329">
+        <img src="{logo_url}" width="240" height="329">
     </div>
     """
     return logo_tag
+
 st.markdown(generate_logo_tag(), unsafe_allow_html=True)
 
 def generate_moving_gif_tag():
