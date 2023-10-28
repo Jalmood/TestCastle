@@ -22,10 +22,8 @@ def generate_logo_tag():
 st.markdown(generate_logo_tag(), unsafe_allow_html=True)
 
 def generate_moving_gif_tag():
-    gif1 = open("C:/Users/rayan/Desktop/TestCastle/animation_lo2h5zop_small.gif", "rb")
-    gif1_bytes = gif1.read()
-    gif1_b64 = base64.b64encode(gif1_bytes).decode()   
-    moving_gif_tag = f"""
+    gif_url = "https://github.com/Rayan3rb/TestCastle/raw/main/animation_lo2h5zop_small.gif"
+    gif_tag = f"""
     <style>
         @keyframes moveFromLeftToRight {{
             0% {{
@@ -41,10 +39,11 @@ def generate_moving_gif_tag():
         }}
     </style>
     <div style="display: flex; justify-content: center; overflow: hidden;">
-        <img class="moving-gif" src="data:image/gif;base64,{gif1_b64}" width="120" height="120">
+        <img class="moving-gif" src="{gif_url}" width="120" height="120">
     </div>
     """
-    return moving_gif_tag
+    return gif_tag
+
 st.markdown(generate_moving_gif_tag(), unsafe_allow_html=True)
 
 st.markdown(blue_line, unsafe_allow_html=True)
@@ -86,7 +85,7 @@ if st.button("Submit"):
     video_tag = f"""
     <div style="display: flex; justify-content: center;">
         <video controls width="320" height="240">
-            <source src="data:video/mp4;base64,{video_b64}" type="video/mp4">
+            <source src="https://github.com/Rayan3rb/TestCastle/raw/main/Welcome.mp4" type="video/mp4">
         </video>
     </div>
     """
