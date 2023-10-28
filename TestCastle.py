@@ -21,7 +21,6 @@ def generate_logo_tag():
     """
     return logo_tag
 st.markdown(generate_logo_tag(), unsafe_allow_html=True)
-
 def generate_moving_gif_tag():
     gif1 = open("C:/Users/rayan/Desktop/TestCastle/animation_lo2h5zop_small.gif", "rb")
     gif1_bytes = gif1.read()
