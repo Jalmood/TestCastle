@@ -79,9 +79,6 @@ if st.button("Submit"):
     st.session_state.user_answers = []
 
 # Welcoming Speech
-    video_file = open("C:/Users/rayan/Desktop/TestCastle/Welcome.mp4", "rb")
-    video_bytes = video_file.read()
-    video_b64 = base64.b64encode(video_bytes).decode()
     video_tag = f"""
     <div style="display: flex; justify-content: center;">
         <video controls width="320" height="240">
