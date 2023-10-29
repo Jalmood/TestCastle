@@ -3075,7 +3075,393 @@ exams = {
         "The weighted average coupon (WAC) of the pool is the weighted average of the interest rates of all the mortgages in the pool."
     ]
 }
-                    }    
+                    }, 
+        "DERIVATIVES":{
+            "Derivative Instruments and Markets": {
+    "questions": [
+        "What is the relationship between the value of a forward contract at initiation and its price?",
+        "What happens to the buyer of a forward contract when the market price of the shares at settlement is greater than the forward price?",
+        "In a futures contract, what is imposed to limit how much each day’s settlement price can change from the previous day’s settlement price?",
+        "What is the primary purpose of multiple-period swaps?",
+        "What does the option premium consist of?",
+        "What is the significance of the par swap rate in a simple interest-rate swap?",
+        "In derivative pricing models, which rate is used to discount future cash flows?",
+        "What does replication refer to in the context of derivatives?",
+        "What is the primary factor that determines the no-arbitrage forward price of an asset, assuming no costs or benefits of holding the underlying asset?",
+        "In a swap contract, what is the price defined as?"
+    ],
+    "choices": [
+        ["A. The value is always positive.", "B. The value is always negative.", "C. The value is zero.", "D. The value is equal to the price."],
+        ["A. The buyer incurs a loss.", "B. The buyer gains.", "C. The buyer's position remains neutral.", "D. The buyer has to pay the difference."],
+        ["A. Price ceilings", "B. Price floors", "C. Price limits", "D. Price barriers"],
+        ["A. To manage currency risk.", "B. To manage interest rate risk.", "C. To manage credit risk.", "D. To manage operational risk."],
+        ["A. Exercise value only.", "B. Time value only.", "C. Both exercise value and time value.", "D. Neither exercise value nor time value."],
+        ["A. It is the floating rate specified in the swap contract.", "B. It is the fixed rate at which the sum of the present values of the FRAs equals zero.", "C. It represents the average rate of all the swaps in the market.", "D. It is the rate at which the swap is initially priced."],
+        ["A. The inflation rate.", "B. The risk-free rate.", "C. The market rate.", "D. The swap rate."],
+        ["A. Creating a portfolio with cash market transactions that has the same payoffs as a derivative.", "B. Duplicating the underlying asset in the market.", "C. Creating multiple copies of the same derivative contract.", "D. Replicating the cash flows of the underlying asset."],
+        ["A. The spot price adjusted for dividends.", "B. The spot price compounded at the risk-free rate over the time until expiration.", "C. The current market rate of the asset.", "D. The expected future price of the asset."],
+        ["A. The floating rate specified in the swap contract.", "B. The average of all rates in the market.", "C. The fixed rate specified in the swap contract.", "D. The rate at which the swap is initially priced."]
+    ],
+    "answers": [
+        "C. The value is zero.",
+        "B. The buyer gains.",
+        "C. Price limits",
+        "B. To manage interest rate risk.",
+        "C. Both exercise value and time value.",
+        "B. It is the fixed rate at which the sum of the present values of the FRAs equals zero.",
+        "B. The risk-free rate.",
+        "A. Creating a portfolio with cash market transactions that has the same payoffs as a derivative.",
+        "B. The spot price compounded at the risk-free rate over the time until expiration.",
+        "C. The fixed rate specified in the swap contract."
+    ],
+    "references": [
+        "The value of a forward contract at initiation is zero.",
+        "The buyer of the shares in a forward contract will have gains when the price of the underlying increases.",
+        "Many futures contracts have price limits, which are exchange-imposed limits on how much each day’s settlement price can change from the previous day’s settlement price.",
+        "Multiple-period swaps are used primarily by investors and issuers to manage interest rate risk.",
+        "Option premium = exercise value + time value.",
+        "The par swap rate is the fixed rate at which the sum of the present values of these FRAs equals zero.",
+        "Derivatives pricing models use the risk-free rate to discount future cash flows.",
+        "Replication refers to creating a portfolio with cash market transactions that has the same payoffs as a derivative for all possible future values of the underlying.",
+        "Assuming no costs or benefits of holding the underlying asset, the forward price that will prevent arbitrage is the spot price compounded at the risk-free rate over the time until expiration.",
+        "The price of a fixed-for-floating interest-rate swap is defined as the fixed rate specified in the swap contract."
+    ]
+},
+            "Forward Commitment and Contingent Claim Features and Instruments": {
+  "questions": [
+    "1. What is a forward commitment?",
+    "2. Which derivative has a future payoff only if a specific future event occurs?",
+    "3. How does a futures contract differ from a forward contract in terms of trading?",
+    "4. Which contract requires daily cash settlement of gains and losses?",
+    "5. Who has long exposure in a forward contract?",
+    "6. What is the primary purpose of margin in futures trading?",
+    "7. What is the outcome for the buyer of a forward contract if the price of the underlying at the settlement date exceeds the forward price?",
+    "8. Which contract is equivalent to a series of forward contracts?",
+    "9. Which option gives the owner the right to buy the underlying asset?",
+    "10. When is the exercise value of a put option positive at expiration?"
+  ],
+  "choices": [
+    ["A. A legally binding promise for a future action", "B. A claim to a future payoff", "C. A future payment obligation", "D. A future claim to an asset"],
+    ["A. Forward Contract", "B. Futures Contract", "C. Option", "D. Swap"],
+    ["A. Forwards are exchange-traded", "B. Futures are privately negotiated", "C. Forwards are standardized", "D. Futures are exchange-traded"],
+    ["A. Forward Contract", "B. Option", "C. Swap", "D. Futures Contract"],
+    ["A. The seller", "B. The buyer", "C. Both the seller and buyer", "D. Neither the seller nor buyer"],
+    ["A. To earn interest", "B. To ensure contract fulfillment", "C. To speculate on price movements", "D. To set the contract price"],
+    ["A. Profit", "B. Loss", "C. No change", "D. Obligation to buy more"],
+    ["A. Option", "B. Swap", "C. Forward Contract", "D. Futures Contract"],
+    ["A. Put Option", "B. Call Option", "C. Swap Option", "D. Futures Option"],
+    ["A. When the underlying asset price is greater than the exercise price", "B. When the underlying asset price equals the exercise price", "C. When the underlying asset price is less than the exercise price", "D. Always"]
+  ],
+  "answers": [
+    "A", "C", "D", "D", "B", "B", "A", "B", "B", "C"
+  ],
+  "references": [
+    "A forward commitment is a legally binding promise to perform some action in the future. (Page 8)",
+    "A contingent claim is a derivative that has a future payoff only if some future event takes place. (Page 8)",
+    "A futures contract is quite similar to a forward contract but is standardized and exchange-traded. (Page 8)",
+    "Futures are backed by a central clearinghouse and require daily cash settlement of gains and losses. (Page 8)",
+    "The buyer has long exposure to the underlying asset in that he will make a profit on the forward if the price of the underlying at the settlement date exceeds the forward price. (Page 8)",
+    "On a futures exchange, margin is cash or other acceptable collaterals. (Page 8)",
+    "The buyer has long exposure to the underlying asset in that he will make a profit on the forward if the price of the underlying at the settlement date exceeds the forward price. (Page 8)",
+    "A swap is an agreement to buy or sell an underlying asset periodically over the life of the swap contract. It is equivalent to a series of forward contracts. (Page 17)",
+    "A call gives the owner the right to call an asset away (buy it) from the seller. (Page 17)",
+    "The exercise value of a put option is positive at expiration if the underlying asset price is less than the exercise price. (Page 17)"
+  ]
+},
+            "Derivative Benefits, Risks, and Issuer and Investor Uses": {
+  "questions": [
+    "Which of the following is a potential advantage of derivative instruments over cash market transactions?",
+    "How can a manufacturer hedge the exchange rate risk of anticipated receipts or payments?",
+    "What information can derivatives prices and trading provide that cash market transactions do not?",
+    "Which of the following is an operational advantage of derivatives compared to cash markets?",
+    "What can be inferred using interest rate futures across maturities?",
+    "How can a corporation with a commodity-like product stabilize the value reported on the balance sheet over time?",
+    "Which of the following is a use of derivatives by investors?"
+  ],
+    "choices": [
+        ["A. Ability to Change Risk Allocation", "B. Ability to Predict Future Prices", "C. Ability to Eliminate All Risks", "D. Ability to Avoid Transaction Costs"],
+        ["A. By investing in the stock market", "B. By using derivative instruments", "C. By diversifying their product range", "D. By changing their supplier"],
+        ["A. Historical data on asset prices", "B. Information on company management", "C. Information Discovery", "D. Information on company dividends"],
+        ["A. Higher interest rates", "B. Greater ease of short selling", "C. Longer transaction times", "D. Greater complexity"],
+        ["A. The current market prices of derivatives", "B. The historical price volatility of the underlying", "C. Expected future interest rates", "D. The current market demand for bonds"],
+        ["A. By diversifying their product range", "B. By selling forward contracts on an underlying that matches well with their product", "C. By investing in the stock market", "D. By changing their supplier"],
+        ["A. Hedging against price risk for inventory held", "B. Modifying the risk exposure of a securities portfolio", "C. Stabilizing the balance sheet value of a foreign subsidiary", "D. Predicting future stock prices"]
+    ],
+    "answers": [
+        "A. Ability to Change Risk Allocation",
+        "B. By using derivative instruments",
+        "C. Information Discovery",
+        "B. Greater ease of short selling",
+        "C. Expected future interest rates",
+        "B. By selling forward contracts on an underlying that matches well with their product",
+        "B. Modifying the risk exposure of a securities portfolio"
+    ],
+  "references": [
+    "Page 18",
+    "Page 18",
+    "Page 18",
+    "Page 19",
+    "Page 19",
+    "Page 21",
+    "Page 22"
+  ]
+},
+            "Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives": {
+  "questions": [
+    "What does the no-arbitrage condition refer to in the context of derivative securities valuation?",
+    "What does replication refer to in the context of derivatives?",
+    "Assuming no costs or benefits of holding the underlying asset, what determines the forward price that will prevent arbitrage?",
+    "What increases the no-arbitrage forward price of an asset?",
+    "What decreases the no-arbitrage forward price of an asset?",
+    "When deriving the no-arbitrage forward price for an asset, what was assumed regarding the benefits and costs of holding the asset?",
+    "In the context of a forward contract on a stock that pays no dividends, how can an investor replicate a forward?"
+  ],
+     "choices": [
+        ["A. Valuing risky assets based on expected future cash flows.", "B. A transaction where an investor realizes a risk-free gain by exploiting price differences.", "C. The process of creating a portfolio with cash market transactions.", "D. The use of risk-adjusted rates for discounting."],
+        ["A. The act of copying a portfolio's structure.", "B. Creating a portfolio with cash market transactions that has the same payoffs as a derivative.", "C. The process of determining the no-arbitrage price.", "D. The act of exploiting arbitrage opportunities."],
+        ["A. The spot price multiplied by the risk-free rate.", "B. The spot price divided by the risk-free rate.", "C. The spot price compounded at the risk-free rate over the time until expiration.", "D. The spot price minus the risk-free rate."],
+        ["A. Greater benefits of holding an asset.", "B. Lower costs of holding an asset.", "C. Greater costs of holding an asset.", "D. Lower benefits of holding an asset."],
+        ["A. Lower costs of holding an asset.", "B. Greater benefits of holding an asset.", "C. Lower benefits of holding an asset.", "D. Greater costs of holding an asset."],
+        ["A. There were both benefits and costs.", "B. There were no benefits and no costs.", "C. There were benefits but no costs.", "D. There were costs but no benefits."],
+        ["A. By selling the underlying short and investing the proceeds at the risk-free rate.", "B. By buying the underlying in the spot market and holding it.", "C. By borrowing at the risk-free rate to buy the underlying.", "D. By investing in a risk-free bond."]
+    ],
+    "answers": [
+        "B. A transaction where an investor realizes a risk-free gain by exploiting price differences.",
+        "B. Creating a portfolio with cash market transactions that has the same payoffs as a derivative.",
+        "C. The spot price compounded at the risk-free rate over the time until expiration.",
+        "D. Lower benefits of holding an asset.",
+        "B. Greater benefits of holding an asset.",
+        "B. There were no benefits and no costs.",
+        "C. By borrowing at the risk-free rate to buy the underlying."
+    ],
+    "references": [
+    "Page 24",
+    "Page 25",
+    "Page 29",
+    "Page 29",
+    "Page 29",
+    "Page 26",
+    "Page 25"
+  ]
+},
+            "Pricing and Valuation of Forward Contracts and for an Underlying with Varying Maturities": {
+  "questions": [
+    "At the initiation of a forward contract that is priced at its no-arbitrage value, what is the value of the forward?",
+    "During the life of a forward contract, how is its value to the buyer determined?",
+    "At the expiration of a forward contract, how is the value of the forward to the buyer determined?",
+    "If the forward buyer has a gain on the contract, what can be said about the forward seller?",
+    "What is the underlying for a derivative?",
+    "What is the primary difference between a forward contract and a futures contract?",
+    "In a simple interest-rate swap, what does one party typically pay?"
+  ],
+"choices": [
+    ["A. Equal to the spot price.", "B. Equal to the forward price.", "C. Zero.", "D. Equal to the difference between the spot and forward price."],
+    ["A. By the current spot price minus the future value of the forward contract price.", "B. By the current spot price minus the present value of the forward contract price.", "C. By the difference between the spot and forward price.", "D. By the forward price minus the current spot price."],
+    ["A. By the spot price minus the forward price.", "B. By the forward price minus the spot price.", "C. By the spot price.", "D. By the forward price."],
+    ["A. The forward seller has an equal gain.", "B. The forward seller has no impact.", "C. The forward seller has an equal loss.", "D. The forward seller benefits from the gain."],
+    ["A. The security that determines the value of a derivative security.", "B. The future date at which the derivative is settled.", "C. The initial price of the derivative.", "D. The final price of the derivative."],
+    ["A. The underlying asset.", "B. The contract size.", "C. The settlement date.", "D. The liquidity and regulation."],
+    ["A. A floating rate.", "B. A fixed rate.", "C. The difference between a fixed and floating rate.", "D. The average of fixed and floating rates."]
+],
+"answers": [
+    "C. Zero.",
+    "B. By the current spot price minus the present value of the forward contract price.",
+    "A. By the spot price minus the forward price.",
+    "C. The forward seller has an equal loss.",
+    "A. The security that determines the value of a derivative security.",
+    "D. The liquidity and regulation.",
+    "A. A floating rate."
+],
+  "references": [
+    "Page 31",
+    "Page 31",
+    "Page 31",
+    "Page 31",
+    "Page 1",
+    "Page 8",
+    "Page 40"
+  ]
+},
+            "Pricing and Valuation of Futures Contracts": {
+  "questions": [
+    "How does the price of a forward contract behave over its life when no mark-to-market gains or losses are paid?",
+    "How does the value of a futures contract change with daily mark-to-market payments?",
+    "How is the futures price of an interest rate stated in terms of the market reference rate from time A to time B?",
+    "What is the primary difference between the value of a forward contract and a futures contract?",
+    "For which type of contract are daily mark-to-market gains and losses settled?",
+    "If interest rates are constant or uncorrelated with futures prices over time, how do the prices of futures and forwards compare?",
+    "What is the primary distinction between futures and forwards for pricing?"
+  ],
+"choices": [
+    ["A. It remains constant.", "B. It fluctuates with changes in the underlying value.", "C. It adjusts to the settlement price daily.", "D. It is reset based on the spot price of the underlying."],
+    ["A. It remains constant.", "B. It fluctuates with changes in the underlying value.", "C. It adjusts to the settlement price daily.", "D. It is reset based on the spot price of the underlying."],
+    ["A. futures price = 100 × MRRA, B–A", "B. futures price = MRRA, B–A", "C. futures price = 100 – (100 × MRRA, B–A)", "D. futures price = 100 + (100 × MRRA, B–A)"],
+    ["A. The forward contract's value remains constant, while the futures contract's value fluctuates.", "B. The forward contract's value fluctuates, while the futures contract's value remains constant.", "C. The forward contract's value and futures contract's value both remain constant.", "D. The forward contract's value and futures contract's value both fluctuate."],
+    ["A. Only for forward contracts.", "B. Only for futures contracts.", "C. For both forward and futures contracts.", "D. Neither for forward nor for futures contracts."],
+    ["A. Futures prices are higher than forwards prices.", "B. Forwards prices are higher than futures prices.", "C. The prices of futures and forwards are the same.", "D. The prices of futures and forwards cannot be compared."],
+    ["A. The underlying asset.", "B. The contract size.", "C. The settlement date.", "D. The daily mark-to-market gains and losses."]
+],
+"answers": [
+    "A. It remains constant.",
+    "C. It adjusts to the settlement price daily.",
+    "C. futures price = 100 – (100 × MRRA, B–A)",
+    "B. The forward contract's value fluctuates, while the futures contract's value remains constant.",
+    "B. Only for futures contracts.",
+    "C. The prices of futures and forwards are the same.",
+    "D. The daily mark-to-market gains and losses."
+],
+  "references": [
+    "Page 36",
+    "Page 36",
+    "Page 36",
+    "Page 36",
+    "Page 36",
+    "Page 38",
+    "Page 37"
+  ]
+},
+            "Pricing and Valuation of Interest Rates and Other Swaps": {
+  "questions": [
+    "In a simple fixed-for-floating interest rate swap, what does one party pay?",
+    "At the inception of a swap, what is the value to each party?",
+    "How is the fixed-rate payment in an interest rate swap calculated for a notional principal amount of $10 million and a fixed rate of 2% with quarterly payments?",
+    "What is the primary difference between the price and value of a swap?",
+    "Which of the following best describes the floating-rate receiver position in a fixed-for-floating interest-rate swap?",
+    "At initiation, why does a swap have zero value?",
+    "How can an interest-rate swap be described in terms of forward contracts?"
+  ],
+"choices": [
+    ["A. A fixed rate on a notional principal amount.", "B. A floating rate on a notional principal amount.", "C. Both fixed and floating rates on a notional principal amount.", "D. Neither fixed nor floating rates."],
+    ["A. Positive.", "B. Negative.", "C. Zero.", "D. Undefined."],
+    ["A. $10 million × 0.02", "B. $10 million × 0.02/4", "C. $10 million × 0.02/12", "D. $10 million × 0.02/2"],
+    ["A. The price is the fixed rate of interest specified in the swap contract, while the value depends on how expected future floating rates change over time.", "B. The price depends on how expected future floating rates change over time, while the value is the fixed rate of interest specified in the swap contract.", "C. Both price and value are the fixed rates of interest specified in the swap contract.", "D. Both price and value depend on how expected future floating rates change over time."],
+    ["A. Buying a fixed-rate bond and a floating-rate note.", "B. Buying a floating-rate note and issuing a fixed-rate bond.", "C. Issuing a floating-rate note and buying a fixed-rate bond.", "D. Neither buying nor issuing any bonds."],
+    ["A. Because the fixed-rate payments are higher than the floating-rate payments.", "B. Because the floating-rate payments are higher than the fixed-rate payments.", "C. Because the present value of the fixed-rate payments equals the present value of the expected floating-rate payments.", "D. Because the swap rate is set to a non-zero value."],
+    ["A. As equivalent to a series of forward contracts based on a fixed rate of interest.", "B. As equivalent to a single forward contract based on a floating rate of interest.", "C. As equivalent to a series of forward contracts based on a floating rate of interest.", "D. As unrelated to any forward contracts."]
+],
+  "answers": [
+    "A. A fixed rate on a notional principal amount.",
+    "C. Zero.",
+    "B. $10 million × 0.02/4",
+    "A. The price is the fixed rate of interest specified in the swap contract, while the value depends on how expected future floating rates change over time.",
+    "B. Buying a floating-rate note and issuing a fixed-rate bond.",
+    "C. Because the present value of the fixed-rate payments equals the present value of the expected floating-rate payments.",
+    "C. As equivalent to a series of forward contracts based on a floating rate of interest."
+  ],
+  "references": [
+    "Page 40",
+    "Page 10",
+    "Page 10",
+    "Page 41",
+    "Page 42",
+    "Page 41",
+    "Page 41"
+  ]
+},
+            "Pricing and Valuation of Options": {
+  "questions": [
+    "What does 'Moneyness' refer to in the context of options?",
+    "When is a call option considered 'in-the-money'?",
+    "What is the time value of an option?",
+    "How does an increase in the risk-free rate affect call option values?",
+    "Which factor determines the value of an option?",
+    "What is the relationship between the price of the underlying asset and the value of a call option?",
+    "When does the time value of an option become zero?"
+  ],
+"choices": [
+    ["A. The time value of an option.", "B. Whether an option is in the money or out of the money.", "C. The exercise value of an option.", "D. The speculative value of an option."],
+    ["A. When S − X > 0.", "B. When S − X < 0.", "C. When S = X.", "D. When the option's time value is positive."],
+    ["A. The amount by which the option premium exceeds the exercise value.", "B. The value of the option if exercised immediately.", "C. The difference between the option's premium and its moneyness.", "D. The speculative value of the option."],
+    ["A. Increases call option values.", "B. Decreases call option values.", "C. Has no effect on call option values.", "D. Makes call option values volatile."],
+    ["A. The volatility of the underlying asset.", "B. The exercise price of the option.", "C. The risk-free rate of interest.", "D. All of the above."],
+    ["A. The higher the price of the underlying, the greater the exercise value of the call option.", "B. The lower the price of the underlying, the greater the exercise value of the call option.", "C. The price of the underlying has no effect on the exercise value of the call option.", "D. The exercise value of the call option is always equal to the price of the underlying."],
+    ["A. At the start of the option's life.", "B. When the option is out of the money.", "C. At expiration.", "D. When the option is in the money."]
+],
+  "answers": [
+    "B. Whether an option is in the money or out of the money.",
+    "A. When S − X > 0.",
+    "A. The amount by which the option premium exceeds the exercise value.",
+    "A. Increases call option values.",
+    "D. All of the above.",
+    "A. The higher the price of the underlying, the greater the exercise value of the call option.",
+    "C. At expiration."
+  ],
+  "references": [
+    "Page 44",
+    "Page 44",
+    "Page 45",
+    "Page 49",
+    "Page 49",
+    "Page 49",
+    "Page 50"
+  ]
+},
+            "Option Replication Using Put–Call Parity": {
+  "questions": [
+    "What is a fiduciary call?",
+    "What is the payoff for a protective put when the put is out of the money?",
+    "For put-call parity, what should be equal for the exercise prices on the put and the call?",
+    "If at expiration S is greater than or equal to X, what is the payoff for the fiduciary call?",
+    "What is the payoff for a protective put when the put is in the money?",
+    "In the context of put-call-forward parity, what is created by purchasing a pure discount bond and simultaneously taking a long position in the forward contract?",
+  ],
+"choices": [
+    ["A. A combination of a call with exercise price X and a stock.", "B. A combination of a put with exercise price X and a stock.", "C. A combination of a call with exercise price X and a pure-discount, riskless bond that pays X at maturity.", "D. A combination of a put with exercise price X and a pure-discount, riskless bond that pays X at maturity."],
+    ["A. X", "B. S", "C. X + S", "D. S - X"],
+    ["A. The face value of the riskless bond.", "B. The current stock price.", "C. The forward contract price.", "D. The option premium."],
+    ["A. S", "B. X", "C. S + X", "D. S - X"],
+    ["A. X", "B. S", "C. X + S", "D. S - X"],
+    ["A. A synthetic option.", "B. A synthetic asset.", "C. A synthetic bond.", "D. A synthetic stock."]
+],
+  "answers": [
+    "C. A combination of a call with exercise price X and a pure-discount, riskless bond that pays X at maturity.",
+    "B. S",
+    "A. The face value of the riskless bond.",
+    "A. S",
+    "A. X",
+    "B. A synthetic asset.",
+  ],
+  "references": [
+    "\"A fiduciary call is a combination of a call with exercise price X and a pure-discount, riskless bond that pays X at maturity (option expiration).\" - **Page 52**",
+    "\"The expiration date payoff for a protective put is ... S when the put is out of the money.\" - **Page 52**",
+    "\"When working with put-call parity, it is important to note that the exercise prices on the put and the call and the face value of the riskless bond are all equal to X.\" - **Page 52**",
+    "\"If at expiration S is greater than or equal to X: ... The fiduciary call pays X + (S − X) = S.\" - **Page 52**",
+    "\"The expiration date payoff for a protective put is (X − S) + S = X when the put is in the money.\" - **Page 52**",
+    "\"By purchasing such a pure discount bond and simultaneously taking a long position in the forward contract, an investor has created a synthetic asset.\" - **Page 54**",
+  ]
+},
+            "Valuing a Derivative Using a One-Period Binomial Model": {
+  "questions": [
+    "What is the primary concept behind a binomial model?",
+    "In a one-period binomial model, which of the following is NOT required?",
+    "What is the significance of risk-neutral probabilities in a one-period binomial model?",
+    "In a one-period binomial model, how is the value of an option described based on risk neutrality?",
+    "Why are risk-neutral probabilities used in a one-period binomial model for option pricing?",
+    "What is the hedge ratio in the context of a one-period binomial model?",
+    "In a one-period binomial model, how is the value of an option determined using the concept of risk neutrality?"
+  ],
+"choices": [
+    ["A. The value will change to one of three possible values.", "B. The value will change to one of two possible values.", "C. The value remains constant over the period.", "D. The value will change based on a continuous distribution."],
+    ["A. An exercise price for the option.", "B. Returns that result from an up-move and a down-move.", "C. The risk-free rate over the period.", "D. The volatility of the underlying asset."],
+    ["A. They represent the actual probabilities of up- and down-moves.", "B. They are derived from historical data.", "C. They come from constructing a hedge that creates a certain payoff.", "D. They are used to adjust the risk-free rate."],
+    ["A. The present value of a probability-weighted average of three possible outcomes.", "B. The present value of a probability-weighted average of two possible outcomes.", "C. The future value of a probability-weighted average of two possible outcomes.", "D. The future value of a probability-weighted average of three possible outcomes."],
+    ["A. They are unbiased estimators of the actual probabilities.", "B. The model is based on a no-arbitrage relationship.", "C. They maximize the option's value.", "D. The buyer can let an out-of-the-money option expire unexercised."],
+    ["A. The ratio of the option's value to the underlying asset's value.", "B. The number of shares of the underlying required to construct portfolios with certain payoffs.", "C. The ratio of the risk-free rate to the option's value.", "D. The ratio of the option's exercise price to its market price."],
+    ["A. By calculating its payoffs for both an up-move and a down-move, then calculating the expected payoff as a weighted average using the risk-neutral probabilities, and finally discounting this expected payoff for one period at the risk-free rate.", "B. By using historical data to estimate the option's future value.", "C. By using the Black-Scholes model.", "D. By using the actual probabilities of up- and down-moves."]
+],
+  "answers": ["B", "D", "C", "B", "B", "B", "A"],
+  "references": [
+    "\"Recall from Quantitative Methods that a binomial model is based on the idea that, over the next period, some value will change to one of two possible values (binomial).\" - **Page 56**",
+    "\"To construct a one-period binomial model for pricing an option, we need: A value for the underlying at the beginning of the period, An exercise price for the option, Returns that will result from an up-move and a down-move, The risk-free rate over the period.\" - **Page 56**",
+    "\"Note that the actual probabilities of an up-move and a down-move do not enter directly into our calculation of option value. The size of the up-move and down-move, along with the risk-free rate, determines the risk-neutral probabilities we use to calculate the expected payoff at option expiration.\" - **Page 60**",
+    "\"In a one-period binomial model based on risk neutrality, the value of an option is best described as the present value of a probability-weighted average of two possible outcomes.\" - **Page 60**",
+    "\"A one-period binomial model for option pricing uses risk-neutral probabilities because the model is based on a no-arbitrage relationship.\" - **Page 60**",
+    "\"The number of units of the underlying required to construct such portfolios is the hedge ratio.\" - **Page 60**",
+    "\"To determine the value of an option using the concept of risk neutrality, we calculate its payoffs for both an up-move and a down-move, calculate the expected payoff as a weighted average using the risk-neutral probabilities of an up-move and a down-move, and discount this expected payoff for one period at the risk-free rate.\" - **Page 60**"
+  ]
+}
+
+        }    
 }}
 
 total_questions = 0
