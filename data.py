@@ -3629,9 +3629,140 @@ exams = {
    "A code of ethics is a written set of moral principles that can guide behavior by describing what is considered acceptable behavior."
  ]
 }
-        }    
-
-}}
+        },    
+        "PORTFOLIO MANAGEMENT (PART TWO)":{
+            "Portfolio Management: An Overview": {
+ "questions": [
+   "What does the portfolio perspective refer to?",
+   "What is the primary benefit of diversification in a portfolio?",
+   "What are the three major steps in the portfolio management process?",
+   "What is the starting point of the portfolio management process?",
+   "What does the investment policy statement (IPS) detail?",
+   "During which step does a portfolio manager examine current economic conditions to identify the most attractive asset classes?",
+   "What is the primary purpose of the feedback step in the portfolio management process?"
+ ],
+"choices": [
+    ["A. Evaluating investments based on individual performance.", "B. Evaluating individual investments by their contribution to the risk and return of an investor’s portfolio.", "C. Holding all wealth in a single stock."],
+    ["A. It guarantees higher returns.", "B. It allows an investor to reduce portfolio risk without necessarily reducing the portfolio’s expected return.", "C. It ensures that all investments will perform well."],
+    ["A. Planning, Execution, and Feedback.", "B. Analysis, Investment, and Review.", "C. Allocation, Diversification, and Monitoring."],
+    ["A. Execution.", "B. Feedback.", "C. Planning."],
+    ["A. Only the investor's return objectives.", "B. The investor’s investment objectives and constraints.", "C. The portfolio's past performance."],
+    ["A. Planning.", "B. Execution.", "C. Feedback."],
+    ["A. To analyze the investor's risk tolerance.", "B. To determine asset class allocations.", "C. To monitor changes and rebalance the portfolio periodically."]
+],
+ "answers": ["B", "B", "A", "C", "B", "B", "C"],
+ "references": [
+   "The portfolio perspective refers to evaluating individual investments by their contribution to the risk and return of an investor’s portfolio.",
+   "Diversification allows an investor to reduce portfolio risk without necessarily reducing the portfolio’s expected return.",
+   "There are three major steps in the portfolio management process: Step 1: The planning step... Step 2: The execution step... Step 3: The feedback step...",
+   "Step 1: The planning step begins with an analysis of the investor’s risk tolerance, return objectives, time horizon, tax exposure, liquidity needs, income needs, and any unique circumstances or investor preferences.",
+   "This analysis results in an investment policy statement (IPS) that details the investor’s investment objectives and constraints.",
+   "Step 2: The execution step involves an analysis of the risk and return characteristics of various asset classes... a portfolio manager will examine current economic conditions...",
+   "Step 3: The feedback step is the final step. Over time, investor circumstances will change... The portfolio manager must monitor these changes and rebalance the portfolio periodically..."
+ ]
+},
+            "Basics of Portfolio Planning and Construction": {
+ "questions": [
+   "Why is a written investment policy statement (IPS) essential for an investment manager?",
+   "What should the investor’s goals in terms of risk and return be determined as?",
+   "Which of the following is NOT a major component of an IPS?",
+   "What does tactical asset allocation focus on?",
+   "How might imposing portfolio constraints based on ESG factors affect performance?",
+   "For active ownership, what is crucial to clarify regarding investors and shares?",
+   "What does the strategic asset allocation provide for a portfolio?"
+ ],
+"choices": [
+    ["A. To ensure high returns for the client.", "B. To understand the client’s needs, circumstances, and constraints.", "C. To showcase the manager's expertise."],
+    ["A. Mutually inclusive.", "B. Mutually exclusive.", "C. Independent of each other."],
+    ["A. Description of Client circumstances.", "B. Investment Guidelines.", "C. Portfolio's past performance."],
+    ["A. Long-term investment opportunities.", "B. Shorter-term opportunities in specific asset classes.", "C. Maintaining a fixed asset allocation."],
+    ["A. It will always increase returns.", "B. It may decrease or increase returns.", "C. It has no impact on returns."],
+    ["A. Whether investors intend to sell their shares.", "B. Whether investors intend to vote their shares themselves or direct managers to vote according to specified ESG factors.", "C. Whether investors prefer dividends or capital gains."],
+    ["A. Short-term investment opportunities.", "B. The basic structure of a portfolio.", "C. Tactical deviations from the baseline."]
+],
+ "answers": ["B", "B", "C", "B", "B", "B", "B"],
+ "references": [
+   "An investment manager is very unlikely to produce a good result for a client without understanding that client’s needs, circumstances, and constraints.",
+   "These should be determined jointly, as the goals of high returns and low risk (while quite popular) are likely to be mutually exclusive in practice.",
+   "The major components of an IPS typically address the following: Description of Client circumstances, situation, and investment objectives... Investment Guidelines such as how the policy will be executed, asset types permitted, and leverage to be used.",
+   "Tactical asset allocation refers to an allocation that deviates from the baseline (strategic) allocation in order to profit from a forecast of shorter-term opportunities in specific asset classes.",
+   "Imposing portfolio constraints based on ESG factors may affect performance. Limiting the universe of investment choices may decrease returns, but good corporate governance and low ESG-related risks may increase returns.",
+   "For active ownership, it is important to clarify whether investors intend to vote their shares themselves or direct managers to vote the shares according to specified ESG factors.",
+   "The strategic asset allocation provides the basic structure of a portfolio."
+ ]
+},
+            "The Behavioral Biases of Individuals": {
+ "questions": [
+   "What does traditional finance assume about individuals?",
+   "What are cognitive errors primarily due to?",
+   "What is the nature of emotional biases?",
+   "Which bias occurs when individuals rationally form an initial view but then fail to change that view as new information becomes available?",
+   "Which bias leads individuals to underestimate uncertainty and the standard deviation of their predictions?",
+   "Which bias involves individuals placing a higher value on assets they own than if they did not own those same assets?",
+   "What does the term cognitive dissonance refer to?",
+   "Which bias is exhibited when participants go with the consensus or popular opinion?",
+   "Which bias occurs when individuals give themselves credit for choosing profitable stocks in a bull market?",
+   "Which bias may lead investors to ignore or misinterpret new information suggesting that valuations will not continue to rise?"
+ ],
+"choices": [
+    ["A. Individuals act on emotions.", "B. Individuals act as perfectly rational economic beings.", "C. Individuals always make biased decisions."],
+    ["A. Feelings and impulses.", "B. Faulty reasoning or irrationality.", "C. External influences."],
+    ["A. They are related to conscious thought.", "B. They stem from feelings, impulses, or intuition.", "C. They arise from logical reasoning."],
+    ["A. Confirmation bias.", "B. Representativeness bias.", "C. Conservatism bias."],
+    ["A. Overconfidence bias.", "B. Hindsight bias.", "C. Anchoring bias."],
+    ["A. Endowment bias.", "B. Regret-aversion bias.", "C. Status quo bias."],
+    ["A. A situation where an individual holds conflicting beliefs.", "B. The inability to process information.", "C. The tendency to rely on emotions for decision-making."],
+    ["A. Herding behavior.", "B. Confirmation bias.", "C. Representativeness bias."],
+    ["A. Hindsight bias.", "B. Overconfidence bias.", "C. Confirmation bias."],
+    ["A. Anchoring bias.", "B. Confirmation bias.", "C. Representativeness bias."]
+],
+ "answers": ["B", "B", "B", "C", "A", "A", "A", "A", "A", "B"],
+ "references": [
+   "Traditional finance assumes that individuals act as perfectly rational economic beings who objectively consider all relevant information to make rational decisions.",
+   "Cognitive errors are due primarily to faulty reasoning or irrationality.",
+   "Emotional biases are not related to conscious thought. Rather, they stem from feelings, impulses, or intuition.",
+   "Conservatism bias occurs when market participants rationally form an initial view but then fail to change that view as new information becomes available.",
+   "Prediction overconfidence leads individuals to underestimate uncertainty and the standard deviation of their predictions.",
+   "This describes the endowment bias, where individuals place a higher value on assets they own than if they did not own those same assets.",
+   "Psychologists use the term cognitive dissonance to refer to a situation where an individual holds conflicting beliefs or receives information that causes a current belief to be questioned.",
+   "Herding behavior is a form of regret aversion where participants go with the consensus or popular opinion.",
+   "Persistently good results combined with self-attribution bias can fuel overconfidence, as can hindsight bias (as investors give themselves credit for choosing profitable stocks in a bull market).",
+   "Confirmation bias may lead investors to ignore or misinterpret new information suggesting that valuations will not continue to rise."
+ ]
+},
+            "Introduction to Risk Management": {
+ "questions": [
+   "What are the primary objectives of the risk management process?",
+   "What does risk management not seek to do?",
+   "What does risk governance refer to?",
+   "Which of the following is a component of an overall risk management framework?",
+   "What does risk management aim to achieve regarding the risks an organization faces?",
+   "What is one way to approach the problem of quantifying operational risks for a single organization?",
+   "Which of the following best describes the interactions among the various risks an organization faces?"
+ ],
+"choices": [
+    ["A. Minimize or eliminate all risks.", "B. Identify the risk tolerance, measure organizational risks, and modify and monitor these risks.", "C. Maximize returns and minimize uncertainties."],
+    ["A. Minimize or eliminate all risks.", "B. Identify and measure organizational risks.", "C. Modify and monitor risks."],
+    ["A. The process of identifying and measuring risks.", "B. Senior management’s determination of the risk tolerance of the organization and oversight of the risk management function.", "C. The process of modifying and monitoring risks."],
+    ["A. Establishing processes and policies for risk governance.", "B. Ignoring risks that are hard to quantify.", "C. Focusing solely on financial risks."],
+    ["A. Eliminate all risks.", "B. Align the risks with its risk tolerances.", "C. Increase exposure to all risks."],
+    ["A. Ignore the risk as it's too unpredictable.", "B. Examine a large sample of firms to determine the probability of significant losses.", "C. Rely solely on historical data of the organization."],
+    ["A. Risks are independent and do not interact.", "B. Interactions among risks are rare and insignificant.", "C. Interactions among risks are many and frequent, especially during periods of stress in financial markets."]
+],
+ "answers": ["B", "A", "B", "A", "B", "B", "C"],
+ "references": [
+   "The risk management process seeks to (1) identify the risk tolerance of the organization, (2) identify and measure the risks that the organization faces, and (3) modify and monitor these risks.",
+   "The process does not seek to minimize or eliminate all of these risks.",
+   "Risk governance refers to senior management’s determination of the risk tolerance of the organization, the elements of its optimal risk exposure strategy, and the framework for oversight of the risk management function.",
+   "An overall risk management framework encompasses several activities, including: Establishing processes and policies for risk governance.",
+   "Through these choices the firm aligns the risks it takes with its risk tolerances for these various types of risk.",
+   "One way to approach this problem is to examine a large sample of firms in order to determine an overall probability of significant losses due to operational risks and the average loss of firms that have experienced such losses.",
+   "Interactions among risks must be considered because such interactions are many and frequent. They can be especially important during periods of stress in financial markets."
+ ]
+}
+        }
+                    }
+    }
 
 total_questions = 0
 for reading, content in exams["CFA Level 1"]["PORTFOLIO MANAGEMENT (PART ONE)"].items():
