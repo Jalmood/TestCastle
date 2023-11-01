@@ -233,7 +233,7 @@ with st.expander("Get the solution manual"):
 
     <div class="custom-text">
         <img src="https://uploads-ssl.webflow.com/6336b5e34c850996471eb5e4/63463bf70877f116ba283efd_www.gumroad.png" alt="Gumroad Image" width="50" height="50">
-        Buy the solution manual for any topic with only $10
+        Buy the solution manual for any topic with only $7.9
     </div>
         <a href="https://rayanrab.gumroad.com/l/taxwc" target="_blank">CFA I: QUANTITATIVE METHODS (Solution & Reference)</a><br>
         <a href="https://rayanrab.gumroad.com/l/llzeni" target="_blank">CFA I: Economics (Solution & Reference)</a><br>
