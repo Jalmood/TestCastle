@@ -3460,8 +3460,177 @@ exams = {
     "\"To determine the value of an option using the concept of risk neutrality, we calculate its payoffs for both an up-move and a down-move, calculate the expected payoff as a weighted average using the risk-neutral probabilities of an up-move and a down-move, and discount this expected payoff for one period at the risk-free rate.\" - **Page 60**"
   ]
 }
-
+       },
+        "ETHICAL AND PROFESSIONAL STANDARDS":{
+            "Ethics and Trust in the Investment Profession": {
+    "questions": [
+        "Question 1: How can ethics be described?",
+        "Question 2: What is the role of a code of ethics in defining a profession?",
+        "Question 3: Which of the following is NOT a characteristic of a profession?",
+        "Question 4: Why are high ethical standards particularly important in investment management?",
+        "Question 5: What does a fiduciary standard require professionals to do?",
+        "Question 6: What is one of the challenges to ethical behavior?",
+        "Question 7: Why is trust in investment professionals of greater importance than in many other businesses?"
+    ],
+    "choices": [
+        ["A. A set of shared beliefs about what is good or acceptable behavior.", "B. A written set of moral principles.", "C. A guideline for professional conduct.", "D. A regulatory body to enforce rules."],
+        ["A. To communicate the values and expectations of an organization.", "B. To enforce rules concerning professional behavior.", "C. To monitor the ethical behavior of members.", "D. To provide a general guide to what constitutes acceptable behavior."],
+        ["A. A focus on service to society.", "B. A requirement to put client interests first.", "C. A focus on profit maximization.", "D. A focus on the needs of their clients."],
+        ["A. Because investment advice is a tangible product.", "B. Because clients often have significant knowledge about financial securities.", "C. Because investment professionals are entrusted with their clients’ wealth.", "D. Because ethical standards increase the cost of raising capital."],
+        ["A. Match client return requirements with the characteristics of the securities.", "B. Act in the best interests of the client.", "C. Monitor the ethical behavior of members.", "D. Provide clients with information on laws and regulations."],
+        ["A. Underestimating one’s own ethical character.", "B. Overestimating the importance of a code of ethics.", "C. Ignoring the needs of stakeholders.", "D. Avoiding the use of a decision-making framework."],
+        ["A. Because investment advice is a tangible product.", "B. Because investment professionals handle tangible assets.", "C. Because investment advice and management are intangible products.", "D. Because trust is not essential in other businesses."]
+    ],
+    "answers": [
+        "A. A set of shared beliefs about what is good or acceptable behavior.",
+        "D. To provide a general guide to what constitutes acceptable behavior.",
+        "C. A focus on profit maximization.",
+        "C. Because investment professionals are entrusted with their clients’ wealth.",
+        "B. Act in the best interests of the client.",
+        "A. Underestimating one’s own ethical character.",
+        "C. Because investment advice and management are intangible products."
+    ],
+    "references": [
+        "Reference: \"Ethics can be described as a set of shared beliefs about what is good or acceptable behavior and what is bad or unacceptable behavior.\" - Page 1",
+        "Reference: \"Having a code of ethics is a way to communicate the values, principles, and expectations of an organization or other group of people and provides a general guide to what constitutes acceptable behavior.\" - Page 1",
+        "Reference: \"A profession is an occupational group ... A requirement to put client interests first.\" - Page 2",
+        "Reference: \"Investment professionals have a special responsibility because they are entrusted with their clients’ wealth.\" - Page 2",
+        "Reference: \"A fiduciary standard is stronger, requiring professionals to use their knowledge and expertise to act in the best interests of the client.\" - Page 3",
+        "Reference: \"Challenges to ethical behavior include overestimating one’s own ethical character,\" - Page 6",
+        "Reference: \"Investment advice and management are intangible products, making quality and value received more difficult to evaluate than for tangible products such as a laptop computer or a restaurant meal.\" - Page 2"
+    ]
+    },  
+            "Code of Ethics and Standards of Professional Conduct": {
+ "questions": [
+   "What is the purpose of a professional code of ethics?",
+   "What does a profession refer to?",
+   "What is the role of the CFA Institute Professional Conduct Program?",
+   "Which of the following is NOT a circumstance that can prompt an inquiry by the CFA Institute Professional Conduct staff?",
+   "What is the primary objective of ethical behavior?",
+   "Which standard relates to additional compensation arrangements?",
+   "What is the responsibility of investment professionals?"
+ ],
+"choices": [
+    ["A. To guarantee that all members will always follow the code.", "B. To communicate the values, principles, and expectations of an organization.", "C. To provide a detailed list of all acceptable behaviors."],
+    ["A. A group of people with any skills.", "B. A group of people with specialized skills and knowledge who serve others.", "C. A group of people who follow a specific code of conduct."],
+    ["A. To provide training to members.", "B. To enforce the Code and Standards.", "C. To conduct annual meetings."],
+    ["A. Self-disclosure by members on their annual Professional Conduct Statements.", "B. Receiving a gift from a client.", "C. Evidence of misconduct by a member received through public sources."],
+    ["A. To ensure personal benefits.", "B. To conform to a set of rules and moral principles.", "C. To achieve professional recognition."],
+    ["A. Standard I: Professionalism", "B. Standard II: Integrity of Capital Markets", "C. Standard IV: Duties to Employers"],
+    ["A. To ensure maximum profits at any cost.", "B. To use their specialized knowledge and skills to protect and grow client assets.", "C. To always choose the best investment options available."]
+],
+ "answers": ["B", "B", "B", "B", "B", "C", "B"],
+ "references": [
+   "A code of ethics is a written set of moral principles that can guide behavior by describing what is considered acceptable behavior.",
+   "A profession refers to a group of people with specialized skills and knowledge who serve others and agree to behave in accordance with a code of ethics.",
+   "The CFA Institute Board of Governors has overall responsibility for the Professional Conduct Program and its Disciplinary Review Committee is responsible for enforcing of the Code and Standards.",
+   "The CFA Institute Professional Conduct staff conducts inquiries related to professional conduct. Several circumstances can prompt such an inquiry...",
+   "Ethical behavior is that which conforms to a set of rules and moral principles based on shared beliefs about what behavior is acceptable and what behavior is unacceptable.",
+   "The standard related to additional compensation arrangements is a subsection of Standard IV Duties to Employers.",
+   "Investment professionals have a special responsibility to use their specialized knowledge and skills to both protect and grow client assets."
+ ]
+},
+            "Guidance for Standards I–VII": {
+ "questions": [
+   "What should members provide their employers with at least?",
+   "What must Members and Candidates not engage in regarding CFA Institute Programs?",
+   "What is considered a violation regarding the integrity of the CFA charter?",
+   "What must Members and Candidates ensure when communicating investment performance information?",
+   "What is strictly prohibited in professional conduct?",
+   "What is the guidance regarding settling disputes related to professional ethics or competence?",
+   "What is considered \"material\" information?",
+   "What is a violation of Standard II(A) Material Nonpublic Information?",
+   "What is considered a violation regarding market participants?",
+   "What is the guidance for firms regarding unethical behavior?"
+ ],
+"choices": [
+    ["A. Monthly updates", "B. Biannual updates", "C. Quarterly updates"],
+    ["A. Any conduct that promotes CFA Institute.", "B. Any conduct that compromises the reputation or integrity of CFA Institute.", "C. Any conduct that supports other competing designations."],
+    ["A. Discussing the CFA curriculum.", "B. Cheating on the CFA exam.", "C. Attending CFA workshops."],
+    ["A. That it is detailed and lengthy.", "B. That it is fair, accurate, and complete.", "C. That it is only positive."],
+    ["A. Honest disagreements.", "B. Dishonesty, fraud, or deceit.", "C. Professional debates."],
+    ["A. Members can use enforcement of the Standard against another member.", "B. Members must not use enforcement of the Standard against another member to settle personal disputes.", "C. Members should always involve third-party mediators."],
+    ["A. Information that is commonly known.", "B. Information that would affect the price of a security.", "C. Information that is irrelevant to investors."],
+    ["A. Sharing public information.", "B. Acting on material nonpublic information.", "C. Discussing public financial reports."],
+    ["A. Making trades based on public information.", "B. Making trades intended to mislead market participants.", "C. Making trades based on personal preferences."],
+    ["A. Encourage unethical behavior for profits.", "B. Ignore unethical behavior.", "C. Make clear that unethical behavior will not be tolerated."]
+],
+ "answers": ["C", "B", "B", "B", "B", "B", "B", "B", "B", "C"],
+ "references": [
+   "Members should provide their employers with updates at least quarterly.",
+   "Members and Candidates must not engage in any conduct that compromises the reputation or integrity of CFA Institute or the CFA designation or the integrity, validity, or security of CFA Institute programs.",
+   "Cheating on the CFA exam or any exam.",
+   "When communicating investment performance information, Members and Candidates must make reasonable efforts to ensure that it is fair, accurate, and complete.",
+   "Members and Candidates must not engage in any professional conduct involving dishonesty, fraud, or deceit.",
+   "The guidance states, in fact, that members must not try to use enforcement of this Standard against another member to settle personal, political, or other disputes that are not related to professional ethics or competence.",
+   "Information is “material” if its disclosure would affect the price of a security or if a reasonable investor would want the information before making an investment.",
+   "Members and Candidates who possess material nonpublic information that could affect the value of an investment must not act or cause others to act on the information.",
+   "Of course, spreading false information to affect prices or volume is a violation of this Standard as is making trades intended to mislead market participants.",
+   "Develop and adopt a code of ethics and make clear that unethical behavior will not be tolerated."
+ ]
+},
+            "Introduction to the Global Investment Performance Standards (GIPS)": {
+ "questions": [
+   "Why were the GIPS standards created?",
+   "Who can claim compliance with GIPS?",
+   "What is one of the biases that firms might have when choosing their own methodologies for reporting?",
+   "What does GIPS compliance ensure regarding terminated accounts?",
+   "What is the purpose of independent verification in GIPS compliance?",
+   "Who should perform the independent verification for GIPS compliance?",
+   "What should firms avoid in their performance reporting to prevent misrepresentation?"
+ ],
+"choices": [
+    ["A. To allow firms to choose their own methodologies.", "B. To make investment performance reporting standardized and comparable across firms.", "C. To highlight top-performing portfolios only."],
+    ["A. Any firm, including software developers.", "B. Only firms that manage assets for others.", "C. Consultants who serve their existing and prospective clients."],
+    ["A. Reporting only during economic downturns.", "B. Including all accounts, regardless of performance.", "C. Excluding terminated accounts."],
+    ["A. They should be excluded from all reports.", "B. They should be highlighted separately.", "C. They should be included in the composite."],
+    ["A. To allow firms to self-verify their compliance.", "B. To ensure that a firm's performance measurement practices and methods are in line with GIPS.", "C. To highlight the top-performing portfolios."],
+    ["A. The firm itself.", "B. A third party.", "C. Any individual within the firm."],
+    ["A. Including all accounts.", "B. Reporting performance during economic upturns.", "C. Selecting specific time periods that showcase their performance in the best light."]
+],
+ "answers": ["B", "B", "C", "C", "B", "B", "C"],
+ "references": [
+   "GIPS present a standardized methodology for performance reporting that makes comparison of performance across firms meaningful...",
+   "GIPS only apply to firms that manage assets for others.",
+   "Excluding terminated accounts, which may tend to be accounts closed by investors due to sub-par performance.",
+   "A GIPS-compliant composite must include terminated accounts.",
+   "Firms are encouraged to pursue independent verification of their compliance with GIPS. Verification applies to the entire firm’s performance measurement practices and methods...",
+   "If a firm chooses to pursue verification, it must be performed by a third party, not by the firm itself...",
+   "Selecting time periods to report that put firm performance in the best possible light."
+ ]
+},
+            "Ethics Application": {
+ "questions": [
+   "What is the ethical consideration when a member discovers that their firm is overcharging clients?",
+   "What is the violation when a member fails to investigate transactions in an account that appear to be at high risk?",
+   "What is the ethical violation when a member forges customer signatures?",
+   "What is the ethical concern when a member contributes to a politician’s campaign expecting preferential treatment?",
+   "What does ethical conduct improve outcomes for?",
+   "What is a key component of ethical conduct?",
+   "What is the purpose of a code of ethics?"
+ ],
+"choices": [
+    ["A. The member should ignore the situation.", "B. The member should report only to the clients.", "C. The member must disassociate from the activity and not work with any clients who are still being overcharged."],
+    ["A. Not adhering to company policies.", "B. Violating money-laundering laws.", "C. Not updating client records."],
+    ["A. Expediency.", "B. Misrepresentation.", "C. Independence and Objectivity."],
+    ["A. Seeking public recognition.", "B. Expecting preferential treatment for receiving management contracts.", "C. Supporting political ideologies."],
+    ["A. Only the individual.", "B. Stakeholders.", "C. Only the company."],
+    ["A. Following personal beliefs.", "B. Balancing self-interest with the impact on others.", "C. Prioritizing self-interest above all."],
+    ["A. To provide a general guide to what constitutes acceptable behavior.", "B. To list out company policies.", "C. To highlight individual achievements."]
+],
+ "answers": ["C", "B", "A", "B", "B", "B", "A"],
+ "references": [
+   "A member reports to his supervisor that their firm is overcharging clients... The member must disassociate from the activity and not work with any clients who are still being overcharged.",
+   "A member violates the Standard by failing to investigate transactions in an account that appear to be at high risk of violating money-laundering laws...",
+   "A member violates the Standards (and the law) by forging customer signatures for expediency.",
+   "A member violates the Standard by contributing to a politician’s campaign, believing that it may lead to preferential treatment with regard to receiving management contracts for government pension fund money.",
+   "Ethical conduct has been described as behavior that improves outcomes for stakeholders...",
+   "Ethical conduct is behavior that balances your self-interest with the impact on others.",
+   "A code of ethics is a written set of moral principles that can guide behavior by describing what is considered acceptable behavior."
+ ]
+}
         }    
+
 }}
 
 total_questions = 0
@@ -3493,7 +3662,6 @@ blue_line = ("""
         </style>
         <hr class="customHR">
     """)
-
 grey_line = ("""
         <style>
             @keyframes fadeInOut {

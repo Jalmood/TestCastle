@@ -188,6 +188,8 @@ if st.session_state.show_score:
         cta.append("https://rayanrab.gumroad.com/l/tgirr")
     elif topic == "DERIVATIVES":
         cta.append("https://rayanrab.gumroad.com/l/ibrrn")
+    elif topic == "ETHICAL AND PROFESSIONAL STANDARDS":
+        cta.append("https://rayanrab.gumroad.com/l/rnlkel")
     else:
         cta.append(" ")   
     st.markdown(f"""
@@ -239,5 +241,6 @@ with st.expander("Get the solution manual"):
         <a href="https://rayanrab.gumroad.com/l/psjtg" target="_blank">CFA I: EQUITY INVESTMENTS (Solution & Reference)</a><br>
         <a href="https://rayanrab.gumroad.com/l/tgirr" target="_blank">CFA I: FIXED INCOME (Solution & Reference)</a><br>
         <a href="https://rayanrab.gumroad.com/l/ibrrn" target="_blank">CFA I: DERIVATIVES (Solution & Reference)</a><br>
+        <a href="https://rayanrab.gumroad.com/l/rnlkel" target="_blank">CFA I: ETHICAL AND PROFESSIONAL STANDARDS (Solution & Reference)</a><br>    
     </div>
     """, unsafe_allow_html=True)
